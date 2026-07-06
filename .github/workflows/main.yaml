@@ -3,9 +3,9 @@ name: My First CI Pipeline
 # 1. When should this run?
 on:
   push:
-    branches: [ main ]  # Run every time you push to main
+    branches: [ master ]  # Run every time you push to main
   pull_request:
-    branches: [ main ]  # Run when someone wants to merge into main
+    branches: [ master ]  # Run when someone wants to merge into main
 
 # 2. What should it do?
 jobs:
